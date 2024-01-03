@@ -1,7 +1,8 @@
 body {
     background-color: black;
     margin: 0;
-    overflow: hidden;
+    width: 100%;
+    height: 95vh;
 }
 
 @font-face {
@@ -25,8 +26,17 @@ body {
 }
 .container {
     margin: 0;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info {
+    margin: 0;
+    width: 65%;
+    height: 65%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -36,21 +46,46 @@ body {
     display: flex;
     align-items: end;
     justify-content: center;
-    width: 66vh;
     margin: 0;
     flex: 1;
     font-family: "Aguero Serif", "Times New Roman", Times, serif;
-    font-size: 6em;
+    font-size: 12vh;
     text-align: center;
+    text-shadow: 1px 1px 1px gray;
     vertical-align: bottom;
-    color: white;
+    color: #CCCCCC;
+}
+.button {
+    background-color: #CCCCCC;
+    border-radius: 2vw;
+    border: 1px solid gray;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    font-size: 2vh;
+    padding: 1vh 2vw;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px gray;
+}
+.button:hover {
+    background-color: white;
+}
+.button:active {
+    position: relative;
+    top: 1px;
+}
+.footer {
+    justify-self: end;
+    flex-direction: column;
+    font-family: Times, serif;
+    color: #3b3b3b;
 }
 p {
-    width: 66vh;
     margin: 0;
     flex: 1;
     font-family: "Hill House", Times, serif;
-    font-size: 2em;
+    font-size: 3vh;
     text-align: center;
     color: #CCCCCC;
 }
