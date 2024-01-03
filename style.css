@@ -1,27 +1,59 @@
 body {
     background-color: black;
+    margin: 0;
+    overflow: hidden;
 }
+
 @font-face {
     font-family: "Aguero Serif";
     src: url('fonts/Aguero Serif.otf');
-    src: url('fonts/Aguero Serif.otf') format('opentype'),
-	 url('fonts/Aguero Serif.ttf') format('truetype');
+    src:
+        url('fonts/Aguero Serif.otf') format('opentype'),
+        url('fonts/Aguero Serif.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+
+@font-face {
+    font-family: "Hill House";
+    src: url('fonts/HillHouseMedium-axBgg.otf');
+    src:
+        url('fonts/HillHouseMedium-axBgg.otf') format('opentype'),
+        url('fonts/HillHouseMedium-Eaqy8.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
-h1 {
-    color: white;
+.container {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header {
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 66vh;
+    margin: 0;
+    flex: 1;
     font-family: "Aguero Serif", "Times New Roman", Times, serif;
     font-size: 6em;
+    text-align: center;
+    vertical-align: bottom;
+    color: white;
 }
 p {
-    color: gray;
+    width: 66vh;
+    margin: 0;
+    flex: 1;
+    font-family: "Hill House", Times, serif;
+    font-size: 2em;
+    text-align: center;
+    color: #CCCCCC;
+}
+a {
+    font-family: Times, serif;
 }
