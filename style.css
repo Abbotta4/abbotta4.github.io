@@ -79,6 +79,7 @@ body {
     justify-self: end;
     flex-direction: column;
     font-family: Times, serif;
+    font-size: 2vh;
     color: #3b3b3b;
 }
 p {
