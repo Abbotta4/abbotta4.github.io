@@ -75,6 +75,15 @@ body {
     position: relative;
     top: 1px;
 }
+.photos {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 .footer {
     justify-self: end;
     flex-direction: column;
@@ -91,5 +100,10 @@ p {
     color: #CCCCCC;
 }
 a {
-    font-family: Times, serif;
+    color: #710C04;
+}
+img {
+    margin: 10px;
+    border-radius: 5px;
+    max-height: 40vh;
 }
