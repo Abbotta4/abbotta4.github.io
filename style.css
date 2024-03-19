@@ -2,7 +2,6 @@ body {
     background-color: black;
     margin: 0;
     width: 100%;
-    height: 95vh;
 }
 
 @font-face {
@@ -27,10 +26,8 @@ body {
 .container {
     margin: 0;
     width: 100%;
-    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .info {
@@ -85,6 +82,7 @@ body {
     flex-wrap: wrap;
 }
 .footer {
+    margin-top: 40px;
     justify-self: end;
     flex-direction: column;
     font-family: Times, serif;
