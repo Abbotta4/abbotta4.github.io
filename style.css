@@ -53,6 +53,9 @@ body {
     vertical-align: bottom;
     color: #CCCCCC;
 }
+.space {
+    padding: 20vh;
+}
 .button {
     background-color: #CCCCCC;
     border-radius: 2vw;
